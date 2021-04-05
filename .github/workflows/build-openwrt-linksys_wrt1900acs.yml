@@ -86,13 +86,13 @@ jobs:
       run: |
         git clone https://github.com/jerrykuku/luci-app-vssr.git
         git clone https://github.com/jerrykuku/lua-maxminddb.git
-        git clone https://github.com/fw876/helloworld packages/SSRPlus
         
     ###########下载SSR魔改版的代码############################################################      
     - name: Clone luci-app-ssr-plus-Jo code
       run: |
         git clone https://github.com/king-afk/luci-app-ssr-plus-Jo.git
         git clone https://github.com/Leo-Jo-My/my package/my
+        git clone https://github.com/fw876/helloworld packages/SSRPlus
 
     - name: Update feeds
       run: cd openwrt && ./scripts/feeds update -a
